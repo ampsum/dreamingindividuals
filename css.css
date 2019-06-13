@@ -1,0 +1,311 @@
+	* {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 1em;
+	  color: #111;
+	}
+
+	a:link, a:visited {
+	  text-decoration: underline;
+	  color: #7d3c58;
+	}
+
+	a:hover {
+	  text-decoration: none;
+	  color: #7d3c58;
+	}
+
+	body {
+	  margin: 0%;
+	  background: #fff;
+	}
+
+	#header {
+	  width: 76%;
+	  font-size: 3em;
+	  font-family: 'Lora', 'Times New Roman', serif;
+	  color: gold;
+	  text-transform: capitalize;
+	  font-weight: bold;
+	  text-align: center;
+	  margin: 2% auto 2% auto;
+	}
+
+	#text {
+	  width: 62%;
+	  padding-bottom: 2%;
+	  margin: auto;
+	  line-height: 2.0;
+	  text-align: justify;
+	}
+
+	#copyright {
+	  width: 80%;
+	  margin: 80px auto 50px auto;
+	}
+
+	#copyright p {
+	  font-size: 0.8em;
+	  line-height: 1.5;
+	  text-align: right;
+	}
+
+	.infobox {
+	  line-height: 1.8;
+	  width: 60%;
+	  margin: 80px auto;
+	  text-align: justify;
+	}
+
+	#langs {
+	  background-color: #7d3c58;
+	  position: fixed;
+	  top: 20px;
+	  right: 40px;
+	  padding: 10px;
+	  text-align: center;
+	  font-size: 1.2em;
+	  font-family: 'Lora', 'Times New Roman', serif;
+	  color: white;
+	}
+
+	#langs a:link, #langs a:hover, #langs a:visited {
+	  color: white;
+	}
+
+	#mobileheader {
+	  visibility: hidden;
+	  height: 0;
+	}
+
+	.interview {
+	  width: 100%;
+	  background-color: #fff;
+	  background-repeat: no-repeat;
+	  background-position: left bottom;
+	  background-size: cover;
+	  background-attachment: fixed;
+	}
+
+	.interview_border {
+	  width: 74%;
+	  margin: auto;
+	  padding: 6% 0;
+	  background: rgba(255, 255, 255, 0.8);
+	}
+
+	.interview_content {
+	  background-color: white;
+	  width: 82%;
+	  margin: auto;
+	  padding: 34px 0 34px 0;
+	  line-height: 1.5;
+	}
+
+	h1 {
+	  font-family: 'Lora', 'Times New Roman', serif;
+	  font-size: 3em;
+	  color: #111;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin: 0;
+	}
+
+	.photo {
+	  box-shadow: 0px 0px 5px 1px #999;
+	  margin: 20px auto;
+	  border: 8px solid #fff;
+	  display: block;
+	}
+
+	img {
+	  max-width: 95%;
+	  height: auto;
+	}
+
+	.textcontent {
+	  text-align: justify;
+	  margin: auto;
+	  padding-bottom: 10px;
+	  width: 80%;
+	  max-width: 600px;
+	}
+
+	.question {
+	  font-weight: bold;
+	  margin: 1em 0 0 0;
+	}
+
+	.answer {
+	  padding-left: 5%;
+	  margin: 0;
+	}
+
+			/* mobile */
+		@media screen and (max-width: 768px) {
+			#text {
+			  width: 90%;
+			  line-height: 1.5;
+			}
+
+			.infobox {
+			  width: 90%;
+			  margin: 40px auto;
+			  text-align: left;
+			}
+
+			#langs {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width:100%;
+			  padding: 8px 0;
+			  font-size: 1em;
+			}
+
+			#mobileheader {
+				background-color: #7d3c58;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width:100%;
+				padding: 8px 0;
+				text-align: center;
+				font-size: 1em;
+				font-family: 'Lora', 'Times New Roman', serif;
+				color: gold;
+			}
+
+			.interview_border {
+			 	width: 100%;
+			}
+
+			.interview_content {
+			 	background-color: transparent;
+			 	width: 90%;
+			 	padding: 20px 0 20px 0;
+			}
+
+			.textcontent {
+			  text-align: left;
+			  width: 90%;
+			}
+		}
+
+		@media screen and (max-width: 1023px) {
+			#header {
+			  margin: 1em auto 2% auto;
+			}
+		}
+
+		@media screen and (min-width: 769px) and (max-width: 1023px) {
+			#text {
+			  width: 80%;
+			  line-height: 1.5;
+			}
+
+			#copyright {
+			  width: 86%;
+			}
+
+			.infobox {
+			  width: 86%;
+			  margin: 60px auto;
+			}
+
+			#langs {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width:100%;
+			  padding: 8px 0;
+			  font-size: 1em;
+			}
+
+			.interview_border {
+			  width: 90%;
+			  padding: 4% 0;
+			}
+
+			.interview_content {
+			  width: 90%;
+			}
+
+			img {
+			  max-width: 80%;
+			}
+		}
+
+
+			/* BACKGROUNDS */
+
+	#persbackground1 {
+	  background-image: url("../photos/bg/taustateresa2.jpg");
+	}
+
+	#persbackground2 {
+	  background-image: url("../photos/bg/taustakigeni.jpg");
+	}
+
+	#persbackground3 {
+	  background-image: url("../photos/bg/taustapapaa.jpg");
+	}
+
+	#persbackground4 {
+	  background-image: url("../photos/bg/taustaeminem.jpg");
+	}
+
+	#persbackground5 {
+	  background-image: url("../photos/bg/taustaazizi.jpg");
+	}
+
+	#persbackground6 {
+	  background-image: url("../photos/bg/taustaabdullah.jpg");
+	}
+
+	#persbackground7 {
+	  background-image: url("../photos/bg/taustamaryam.jpg");
+	}
+
+	#persbackground8 {
+	  background-image: url("../photos/bg/taustazulubu.jpg");
+	}
+
+	#persbackground9 {
+	  background-image: url("../photos/bg/taustaabdullah2.jpg");
+	}
+
+	#persbackground10 {
+	  background-image: url("../photos/bg/taustaingemar3.jpg");
+	}
+
+	#persbackground11 {
+	  background-image: url("../photos/bg/taustamildred.jpg");
+	}
+
+	#persbackground12 {
+	  background-image: url("../photos/bg/taustamartin.jpg");
+	}
+
+	#persbackground13 {
+	  background-image: url("../photos/bg/taustamaija.jpg");
+	}
+
+	#persbackground14 {
+	  background-image: url("../photos/bg/taustajenny.jpg");
+	}
+
+	#persbackground15 {
+	  background-image: url("../photos/bg/taustaandre.jpg");
+	}
+
+	#persbackground16 {
+	  background-image: url("../photos/bg/taustaidris.jpg");
+	}
+
+	#persbackground17 {
+	  background-image: url("../photos/bg/taustagreta.jpg");
+	}
+
+	#persbackground18 {
+	  background-image: url("../photos/bg/tausta18.jpg");
+	}
